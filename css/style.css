@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ccffcc;
+}
+.main{
+	margin: 0 auto;
+	width: 90%;
+}
+.logo-manu, .footer{
+	background-color: #ffffff;
+}
+.logo-manu{
+	overflow: hidden;
+	margin-bottom:15px;
+}
+.logo{
+	float: left;
+	width: 10%;
+}
+.logo img{
+	width:100px;
+	height:auto;
+}
+.manu{
+	float: right;
+	width:90%;
+	padding-top: 25px; 
+}
+.manu ul{ 
+	float: right;
+}
+.manu ul li{
+	display: inline-block;
+	padding:0 20px;
+}
+.manu ul li a{
+	text-decoration: none;
+	color: #00ccff;
+}
+.manu ul li a:hover{
+	color: #66ff66;
+}
+.manu ul li a:active{
+	color: #ff0000;
+}
+.baner{
+
+}
+.gallery{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.gallery-item img{
+	width: 98%;
+	height: auto;
+}
+.footer{
+	margin-top: 15px;
+	height: 50PX;
+}
+.footer h1{
+	text-align: center;
+	padding: 10PX
+}
